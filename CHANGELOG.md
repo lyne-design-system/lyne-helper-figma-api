@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.0.3...v1.0.4) (2020-09-12)
+
+
+### Bug Fixes
+
+* use correct main file ([d31ddea](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/d31ddea58c2ed23b15a9cd20d0cd727d4e5a0027))
+
 ## [1.0.3](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.0.2...v1.0.3) (2020-09-12)
 
 
