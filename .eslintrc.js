@@ -1,9 +1,9 @@
 const baseConfig = require('lyne-helper-eslint-config');
 
 baseConfig.globals = {
-  // module: 'readonly',
+  module: 'readonly',
   // process: 'readonly',
-  // require: 'readonly'
+  require: 'readonly'
 };
 
 baseConfig.plugins = ['yaml'];
