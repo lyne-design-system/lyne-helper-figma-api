@@ -4,15 +4,57 @@
 
 Helper methods to simplify requests to the Figma API.
 
-## Installation
+## Usage
+
+### Installation
 
 Install the Figma API Helper with the following command:
 ```bash
 npm install --save-dev lyne-helper-figma-api
 ```
 
-## Usage
+### Require
 
+```javascript
+const figma = require('lyne-helper-figma-api');
+```
+
+### Fetch document
+
+```javascript
+figma.document('https://api.figma.com/v1/files/YOUR_FILE_ID', 'YOUR_FIGMA TOKEN')
+  .then((document) => {
+    console.log(document);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+```
+
+### Get pages of a document
+
+`figma.pages()` accepts 2 arguments:
+
+`document`: the data returned from `figma.document()`
+
+`ignorePattern`: pages that include the ignorePattern in their name will be ignored and not returned.
+
+```javascript
+const pages = figma.pages(document, ignorePattern);
+```
+
+### Get frames of a page
+
+`figma.frames()` accepts 2 arguments:
+
+`page`: one of the pages returned from `figma.pages()`
+
+`ignorePattern`: frames that include the ignorePattern in their name will be ignored and not returned.
+
+```javascript
+const page = pages[0];
+const frames = figma.frames(page, '***ignore***');
+```
 
 ## Development
 
@@ -21,3 +63,5 @@ npm install --save-dev lyne-helper-figma-api
 Please follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification to make sure we can automatically determine the next release version if necessary.
 
 ## Deployment
+
+The package is automatically build and published to npm via Travis CI as soon as pushed to master.
