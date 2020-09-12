@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.0.2...v1.0.3) (2020-09-12)
+
+
+### Bug Fixes
+
+* use snowpack build ([1ba89d9](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/1ba89d96d7ffa38a34845e2a6ba1373b0152c640))
+* use snowpack build ([4e0e0c1](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/4e0e0c19f98a9c9091ec2ed5955573f35089dc4e))
+
 ## [1.0.2](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.0.1...v1.0.2) (2020-09-12)
 
 
