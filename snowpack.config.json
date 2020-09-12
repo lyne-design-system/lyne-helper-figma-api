@@ -1,0 +1,11 @@
+{
+  "buildOptions": {
+    "clean": true
+  },
+  "mount": {
+    "src": "/"
+  },
+  "devOptions": {
+    "out": "dist"
+  }
+}
