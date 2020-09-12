@@ -1,0 +1,21 @@
+os: linux
+language: node_js
+notifications:
+  slack:
+    template:
+      # This template config somehow breaks yaml syntax
+      # in the editor although it is valid yaml syntax
+      - "Project: lyne-helper-figma-api"
+      - "Build: <%{build_url}|%{build_number}>"
+      - "Commit: <%{compare_url}|%{commit}>"
+      - "Author: %{author}"
+      - "Result: %{result} in %{duration}"
+    secure: qt2EkI0Fbh4P7y678ZC1G3m26nAdhuNQ179S6mEg3Zg461NdEGJ6/gg+q9tcsANeiDRHIW5kxSC0uXvPJ+38r+AmcVjFG6R4Jb0K2+lgr/QWPZVYf8hl1T13kPZCeYkfpyvPC3LXHAckEmPuHqBoQQt08u8bGjVGPUp85WO6sEq8HPp9plvFGmQDfvjAYdIxMKPRBise3OmBms36pO4AHEF1p9sMVBPJEry1p+cDtM44n/z/y4eaGsfVGC5kgyQQfRXThXdJ2MYgIGk4HmCQ3irfIQatZpcEAG5jPsPt4EMxpn5V0ooN7clVq3JJzGbwupcSD9Px3q3GnjraXh22NzLKb4czMdAtAnssTaLm6HMuMHOZxZgj886363VKx5uVB11LA0cnw2w5IhPul5AIYhdSgGVv+TZ8+xPexFMoJEoKaNo3ohUI4Ls0U8WEY9mLP5WJgo6tppNq9tsajhLXKDv+g9OA9ibLFJ7+oTiGmIlhjpf+6EHCZhntbbiMb+N1/0u417taul5BI1lzQ/eXH4kD+pJtfN70OZIptB7rkf6SYY6+1RVrCY05ANL/MmW2wHEjH/ojSitL/YGOPG6PdXck6QNNBoUFzjATSneHbSCSnBH53aGeDvAGAiZqbe36TPT92CAscM7p9/ibDAqLEHOfGPImKeIWtgRzoFCWHco=
+jobs:
+  include:
+    - stage: build and deploy helper
+      script:
+      - npm run lint
+
+      after_success:
+      # - npm run semantic-release
