@@ -15,7 +15,6 @@ figma.document(config.file, config.token)
     const pagesData = figma.pages(data, config.pageIgnorePattern);
 
     const [figmaPage] = pagesData;
-
     const framesData = figma.frames(figmaPage, config.frameIgnorePattern);
 
     console.log(framesData);
