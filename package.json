@@ -22,7 +22,7 @@
     "shelljs": "~0.8.4"
   },
   "files": [
-    "dist/"
+    "src/"
   ],
   "scripts": {
     "lint": "npm run lint:yml && npm run lint:js",
