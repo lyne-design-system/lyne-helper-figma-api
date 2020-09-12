@@ -13,7 +13,6 @@ const config = {
 figma.document(config.file, config.token)
   .then((data) => {
     const pagesData = figma.pages(data, config.pageIgnorePattern);
-
     const [figmaPage] = pagesData;
     const framesData = figma.frames(figmaPage, config.frameIgnorePattern);
 
