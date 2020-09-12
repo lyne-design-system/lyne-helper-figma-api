@@ -23,7 +23,7 @@
     "snowpack": "~2.10.3"
   },
   "files": [
-    "src/"
+    "dist/"
   ],
   "scripts": {
     "build": "snowpack build",
