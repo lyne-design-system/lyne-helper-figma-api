@@ -1,2 +1,4 @@
+dist
+
 # not ignored folders/files
 !.travis.yml
