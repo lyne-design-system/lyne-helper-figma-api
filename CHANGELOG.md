@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.0.4...v1.1.0) (2020-09-13)
+
+
+### Features
+
+* switch to webpack ([cf3f94c](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/cf3f94c26df846802addf97743340ad3ddeda192))
+
 ## [1.0.4](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.0.3...v1.0.4) (2020-09-12)
 
 
