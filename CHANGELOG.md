@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.1...v1.1.2) (2020-09-13)
+
+
+### Bug Fixes
+
+* cleanup ([c97301e](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/c97301e6cb4bf75cd66faf83ce87254e39917d84))
+* cleanup ([2b03189](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/2b031897bc3cd94a0497b489c62ac1a4cb3d0406))
+
 ## [1.1.1](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.0...v1.1.1) (2020-09-13)
 
 
