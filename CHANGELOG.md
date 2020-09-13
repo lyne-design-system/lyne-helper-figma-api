@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.0...v1.1.1) (2020-09-13)
+
+
+### Bug Fixes
+
+* use target node ([cfc12ff](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/cfc12ffa61a4f28aec65564e9aba01efe589f1cc))
+
 # [1.1.0](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.0.4...v1.1.0) (2020-09-13)
 
 
