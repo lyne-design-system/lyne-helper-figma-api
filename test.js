@@ -1,4 +1,4 @@
-const figma = require('lyneFigmaApi');
+const figma = require('./dist');
 
 require('dotenv')
   .config();
