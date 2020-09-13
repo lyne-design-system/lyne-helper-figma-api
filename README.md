@@ -35,12 +35,12 @@ figma.document('https://api.figma.com/v1/files/YOUR_FILE_ID', 'YOUR_FIGMA TOKEN'
 
 `figma.pages()` accepts 2 arguments:
 
-`document`: the data returned from `figma.document()`
+`figmaDocument`: the data returned from `figma.document()`
 
 `ignorePattern`: pages that include the ignorePattern in their name will be ignored and not returned.
 
 ```javascript
-const pages = figma.pages(document, ignorePattern);
+const pages = figma.pages(figmaDocument, ignorePattern);
 ```
 
 ### Get frames of a page
@@ -53,7 +53,7 @@ const pages = figma.pages(document, ignorePattern);
 
 ```javascript
 const page = pages[0];
-const frames = figma.frames(page, '***ignore***');
+const frames = figma.frames(page, ignorePattern);
 ```
 
 ## Development
