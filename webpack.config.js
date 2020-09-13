@@ -17,5 +17,5 @@ module.exports = {
     // umdNamedDefine: true
   },
   plugins: [new CleanWebpackPlugin()],
-  target: 'web'
+  target: 'node'
 };
