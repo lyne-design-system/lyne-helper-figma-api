@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.2...v1.1.3) (2020-09-13)
+
+
+### Bug Fixes
+
+* move axios to dev-deps ([1942d4c](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/1942d4c7a9d4f82be887c779b06e880f761329b8))
+
 ## [1.1.2](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.1...v1.1.2) (2020-09-13)
 
 
