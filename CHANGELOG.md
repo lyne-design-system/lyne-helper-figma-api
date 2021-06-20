@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.3...v1.1.4) (2021-06-20)
+
+
+### Bug Fixes
+
+* update lock file after fresh install ([e69d6c5](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/e69d6c5cb351b5a0dcd2abab79e73db70629b70f))
+
 ## [1.1.3](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.2...v1.1.3) (2020-09-13)
 
 
