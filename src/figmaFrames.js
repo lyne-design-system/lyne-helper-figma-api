@@ -8,16 +8,12 @@ module.exports = (figmaPage, frameIgnorePattern) => {
     children
   } = figmaPage;
 
-  if (!children || children.length < 1) {
-    throw new Error('ERROR: 1st page of the Figma file does not have any children');
+  if (!children) {
+    return [];
   }
 
   const figmaFrames = children.filter((frame) => frame.type === 'FRAME');
   const onlyNotIgnoredFrames = figmaFrames.filter((frame) => !shouldIgnoreFrame(frame, frameIgnorePattern));
-
-  if (onlyNotIgnoredFrames.length < 1) {
-    throw new Error('ERROR: 1st page of the Figma file does not have any frames');
-  }
 
   return onlyNotIgnoredFrames;
 
