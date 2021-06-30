@@ -1,4 +1,4 @@
-const shouldIgnorePage = (page, ignorePattern) => page.name.indexOf(ignorePattern) !== -1;
+const shouldIgnorePage = (page, ignorePattern) => page.name.indexOf(ignorePattern) === 0;
 
 // Get frames from 1st page of the Figma file
 module.exports = (figmaData, ignorePattern) => {
