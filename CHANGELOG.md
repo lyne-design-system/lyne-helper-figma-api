@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.4...v1.1.5) (2021-06-30)
+
+
+### Bug Fixes
+
+* adopt ignore patter to figmas pattern ([0074e70](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/0074e702def971f4316eeca9335c01b1681a4671))
+
 ## [1.1.4](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.3...v1.1.4) (2021-06-20)
 
 
