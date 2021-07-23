@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.5...v1.1.6) (2021-06-30)
+
+
+### Bug Fixes
+
+* return empty array if there are no frames ([99c9e38](https://github.com/lyne-design-system/lyne-helper-figma-api/commit/99c9e38d8529c34dd92586d71f766de4f46605eb))
+
 ## [1.1.5](https://github.com/lyne-design-system/lyne-helper-figma-api/compare/v1.1.4...v1.1.5) (2021-06-30)
 
 
