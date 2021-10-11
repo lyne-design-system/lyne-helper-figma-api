@@ -20,7 +20,7 @@
     "semantic-release": "~17.4.4",
     "semantic-release-slack-bot": "^2.1.0",
     "shelljs": "~0.8.4",
-    "webpack": "~5.56.1",
+    "webpack": "~5.58.1",
     "webpack-cli": "~4.8.0"
   },
   "files": [
